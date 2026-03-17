@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { supabase } from '../lib/supabase'
 
-const ADMIN_PASSWORD = 'monmotdepasseadmin' // changez ceci !
+const ADMIN_PASSWORD = 'Adminjerevise' // 
 
 export default function AdminDashboard() {
   const [authed, setAuthed] = useState(false)
